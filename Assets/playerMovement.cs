@@ -25,10 +25,10 @@ public class playerMovement : MonoBehaviour
         }
     }
 
-    void Start()
+    /*void Start()
     {
         gun.transform.position = this.transform.position + new Vector3(0.4f, 0.4f);
-    }
+    }*/
 
     //I use void update because even though its movement its regulated by fixed values rather than physics
     void Update()
